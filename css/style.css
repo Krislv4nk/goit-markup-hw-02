@@ -20,29 +20,40 @@ body{
             list-style-type: none;
         } 
 
+        .h-address {
+font-style: normal;
+        }
 
     .nav-manu {
-        color: var(--main-color, #2E2F42);
+        font-weight: 500
+        color var(--main-color,#2E2F42);
         line-height: 1.5;
         letter-spacing: 0.02em;
+    }
+    
+    .link:hover {
+        color: #404bbf;
+    }
+    .link:focus {
+        color: #404bbf;
     }
 
     .logo {
         display: flex;
             width: 71px;
             font-size: 18px;
-            font-family: Raleway;
-            line-height: 1.166;
+            font-family: "Raleway", sans-serif;
+            line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: var(--navyblue, #2E2F42);
+            color: var(--logo-color,#4D5AE5);
+            font-weight: 800
     }
 
 
 
     .highlight {
-        color: var(--logo-color, #4D5AE5); 
-        
+        color: var(--second-colo,#434455);  
     }
 
     .adress-item {
@@ -61,16 +72,15 @@ body{
         background: var(--second-color, #2E2F42);
      }
       
-     h1 {
+     .eff-sol {
         display: flex;
-         width: 496px;
          flex-direction: column;
          flex-shrink: 0;
          color: var(--white, #FFF);
          text-align: center;
          font-size: 56px;
          line-height: 1.07;
-         letter-spacing: 0.0186em;
+         letter-spacing: 0.02em;
         }
 .click {
                 display: inline-flex;
@@ -81,8 +91,20 @@ body{
                 background: var(--logo-color, #4D5AE5);
                 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
                 cursor: pointer;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                color: #ffffff;
+}
+.click:focus {
+    background-color: #404BBF;
 }
 
+.click:hover {
+    background-color: #404BBF;
+}
 .features {
     display: flex;
         width: 264px;
@@ -90,18 +112,37 @@ body{
         align-items: flex-start;
         gap: 8px;
 }
+.points {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--main-color,#2E2F42);
+}
+.point-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
 .title {
 text-align: center;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.018em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--main-color);
 }
 
 .team {
     background: var(--cloud, #F4F4FD);
-    
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.member
+{
+    background-color: #FFFFFF;
 }
 
 .hero { 
@@ -112,22 +153,28 @@ text-align: center;
 
 }
 
- .label {
+.down-logo {
     color: var(--cloud, #F4F4FD);
-        font-size: 18px;
-        font-family: Raleway;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
- }
-    
-.label {
-    color: var(--cloud, #F4F4FD);
-        font-size: 18px;
-        font-family: Raleway;
-        font-weight: 800;
-        line-height: 1.166;
-        letter-spacing: 0.025em;
-        text-transform: uppercase;
 }
+.down-par {
+    letter-spacing: 0.02em;
+    line-height: 1.5
+    color var(--cloud)
+}
+.services {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.applications {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
+        
+
