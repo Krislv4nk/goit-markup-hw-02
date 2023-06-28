@@ -93,7 +93,7 @@ padding-top: 24px;
         width: 1440px;
         height: 600px;
         flex-shrink: 0;
-        background-color: var(--main-color);
+        background-color: var(--main-color,#2E2F42);
 
      }
       
@@ -158,7 +158,7 @@ padding-top: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-color,#434455);
 }
 
 
@@ -168,13 +168,13 @@ text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--main-color);
+    color: var(--main-color,#2E2F42);
 }
 
 .team {
     background: var(--cloud, #F4F4FD);
     letter-spacing: 0.02em;
-    color: var(--main-color);
+    color: var(--main-color,#2E2F42);
 }
 .member
 {
@@ -182,7 +182,7 @@ text-align: center;
 }
 
 .hero { 
-    background: var(--main-color, #2E2F42);
+    background: var(--main-color,#2E2F42);
     color: var(--cloud, #F4F4FD);
         line-height: 1.5;
         letter-spacing: 0.013em;
@@ -190,12 +190,12 @@ text-align: center;
 }
 
 .down-logo {
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud,#F4F4FD);
 }
 .down-par {
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: var(--cloud);
+    color: var(--cloud,#F4F4FD);
 }
 .press {
     font-family: "Roboto", sans-serif;
@@ -203,8 +203,8 @@ text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--logo-color);
-    background-color: var(--cloud);
+    color: var(--logo-color,#4D5AE5);
+    background-color: var(--cloud,#F4F4FD);
     cursor: pointer;
 }
 .press:hover {
@@ -222,14 +222,14 @@ background-color: #404BBF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--main-color);
+    color: var(--main-color,#2E2F42);
 }
 
 .applications {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--second-color,#434455);
 }
 
         
