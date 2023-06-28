@@ -40,8 +40,6 @@ body{
         color: var(--main-color,#2E2F42);
         line-height: 1.5;
         letter-spacing: 0.02em;
-        box-sizing: border-box;
-        position: relative;
     }
     
     .link:hover {
@@ -52,20 +50,13 @@ body{
     }
 
     .logo {
-        display: flex;
-            width: 44px;
             font-size: 18px;
             font-family: "Raleway", sans-serif;
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: var(--logo-color,#4D5AE5);
-            font-weight: 800;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            padding-left: 156px;
-            padding-right: 1240px;
-            box-sizing: border-box;                   
+            font-weight: 800;                   
     }
 
     .highlight {
@@ -78,45 +69,23 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        box-sizing: border-box;
-        position: relative;
     }
         .h-address {
             font-style: normal;
-                    gap: 40px;
         }
 
 .solutions {
-        width: 1440px;
-        height: 600px;
-        flex-shrink: 0;
         background-color: var(--main-color,#2E2F42);
-box-sizing: border-box;
-     }
+ }
       
      .eff-sol {
-        display: flex;
-        width: 496px;
-         flex-direction: column;
-         flex-shrink: 0;
          color: var(--white, #FFF);
          text-align: center;
          font-size: 56px;
          line-height: 1.07;
          letter-spacing: 0.02em;
-        padding-left: 472px;
-        padding-right: 472px;
-        padding-bottom: 48px;
-        padding-top: 188px;
         }
 .click {
-                display: inline-flex;
-                padding: 16px 32px;
-                align-items: flex-start;
-                gap: 10px;
-                border-radius: 4px;
-                background: var(--logo-color, #4D5AE5);
-                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
                 cursor: pointer;
                 font-family: "Roboto", sans-serif;
                 font-weight: 500;
@@ -124,9 +93,6 @@ box-sizing: border-box;
                 line-height: 1.5;
                 letter-spacing: 0.04em;
                 color: #ffffff;
-                box-sizing: border-box;
-            flex-direction: row;
-            position: relative;
 }
 .click:focus {
     background-color: #404BBF;
@@ -135,56 +101,36 @@ box-sizing: border-box;
 .click:hover {
     background-color: #404BBF;
 }
-.features {
-    display: flex;
-        width: 264px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        position: relative;
-        justify-content: flex-start;
-}
+
 .points {
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--main-color,#2E2F42);
-            position: relative;
 }
 .point-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-color,#434455);
-    position: relative;
 }
 
-.pict {
-    flex-direction: row;
-}
 .title {
-text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-color,#2E2F42);
-    position: relative;
 }
 
 .team {
     background: var(--cloud, #F4F4FD);
     letter-spacing: 0.02em;
     color: var(--main-color,#2E2F42);
-    position: relative;
 }
-.member
-{
+.member {
     background-color: #FFFFFF;
-    flex-direction: row;
-    position: relative;
-
 }
 
 .hero { 
@@ -201,9 +147,6 @@ text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--cloud,#F4F4FD);
-    text-align: left;
-        position: relative;
-        width: 264;
 }
 .press {
     font-family: "Roboto", sans-serif;
