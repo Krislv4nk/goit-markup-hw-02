@@ -25,8 +25,8 @@ font-style: normal;
         }
 
     .nav-manu {
-        font-weight: 500
-        color var(--main-color,#2E2F42);
+        font-weight: 500;
+        color: var(--main-color,#2E2F42);
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
@@ -50,10 +50,8 @@ font-style: normal;
             font-weight: 800
     }
 
-
-
     .highlight {
-        color: var(--second-colo,#434455);  
+        color: var(--main-color);  
     }
 
     .adress-item {
@@ -63,13 +61,11 @@ font-style: normal;
         letter-spacing: 0.02em;
     }
 
-
-
 .solutions {
         width: 1440px;
         height: 600px;
         flex-shrink: 0;
-        background: var(--second-color, #2E2F42);
+        background-color: var(--second-color, #2E2F42);
      }
       
      .eff-sol {
@@ -123,6 +119,7 @@ font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--second-color);
 }
 
 
@@ -158,9 +155,29 @@ text-align: center;
 }
 .down-par {
     letter-spacing: 0.02em;
-    line-height: 1.5
-    color var(--cloud)
+    line-height: 1.5;
+    color: var(--cloud);
 }
+.press {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.press:hover {
+color: #FFFFFF;
+background-color: #404BBF;
+}
+.press:focus {
+color: #FFFFFF;
+background-color: #404BBF;
+}
+
+
 .services {
     font-weight: 500;
     font-size: 20px;
