@@ -4,6 +4,7 @@
 --second-color: #434455;
     --white: #FFF;
     --cloud: #F4F4FD;
+    --cornflower:#E7E9FC;
 }
 
 body{
@@ -19,16 +20,28 @@ body{
     .list {
             list-style-type: none;
         } 
-
-        .h-address {
-font-style: normal;
-        }
-
+.mein-menu {
+    width: 1440px;
+        height: 72px;
+        flex-shrink: 0;
+       border-bottom: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--white, #FFF);
+        box-sizing: border-box;
+}
+        
     .nav-manu {
         font-weight: 500;
         color: var(--main-color,#2E2F42);
         line-height: 1.5;
         letter-spacing: 0.02em;
+            padding-left: 347px;
+padding-right: 1045px;
+padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+        box-sizing: border-box;
     }
     
     .link:hover {
@@ -40,18 +53,25 @@ font-style: normal;
 
     .logo {
         display: flex;
-            width: 71px;
+            width: 44px;
             font-size: 18px;
             font-family: "Raleway", sans-serif;
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: var(--logo-color,#4D5AE5);
-            font-weight: 800
+            font-weight: 800;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 156px;
+            padding-right: 1240px;
+            
+                         
     }
 
     .highlight {
-        color: var(--main-color);  
+        color: var(--main-color);
+            width: 71px;
     }
 
     .adress-item {
@@ -60,16 +80,26 @@ font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+        .h-address {
+            font-style: normal;
+                padding-left: 940px;
+                padding-right: 156px;
+                padding-top: 24px;
+                    padding-bottom: 24px;
+                    gap: 40px;
+        }
 
 .solutions {
         width: 1440px;
         height: 600px;
         flex-shrink: 0;
-        background-color: var(--second-color, #2E2F42);
+        background-color: var(--main-color);
+
      }
       
      .eff-sol {
         display: flex;
+        width: 496px;
          flex-direction: column;
          flex-shrink: 0;
          color: var(--white, #FFF);
@@ -77,6 +107,10 @@ font-style: normal;
          font-size: 56px;
          line-height: 1.07;
          letter-spacing: 0.02em;
+        padding-left: 472px;
+        padding-right: 472px;
+        padding-bottom: 48px;
+        padding-top: 188px;
         }
 .click {
                 display: inline-flex;
@@ -93,6 +127,11 @@ font-style: normal;
                 line-height: 1.5;
                 letter-spacing: 0.04em;
                 color: #ffffff;
+                box-sizing: border-box;
+                padding-right: 635;
+                padding-left: 636;
+                
+                
 }
 .click:focus {
     background-color: #404BBF;
