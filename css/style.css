@@ -21,18 +21,7 @@ body{
             list-style-type: none;
         } 
 .mein-menu {
-    width: 1440px;
-        height: 72px;
-        flex-shrink: 0;
-       border-bottom: 1px solid var(--cornflower, #E7E9FC);
         background: var(--white, #FFF);
-        box-sizing: border-box;
-        justify-content: flex-start;
-            position: relative;
-            display: flex;
-            align-items: flex-start;
-            gap: 40px;
-            flex-direction: row;
 }
         
     .nav-manu {
@@ -61,7 +50,6 @@ body{
 
     .highlight {
         color: var(--main-color);
-            width: 71px;
     }
 
     .adress-item {
